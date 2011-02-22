@@ -1,0 +1,29 @@
+#labels Featured
+#An application to quickly and painlessly examine various aspects of an Android app. Great for pen testers, devs, and curious android owners.
+
+= Introduction =
+
+C-Ray is an Android application scanner that can be used to scan and analyze android applications for security configurations. 
+
+
+
+= Details =
+
+C-Ray gives a summary of security posture and permissions on each of the activities exposed by the application in the *Summary* scan and also allows an end user to manual perform a basic penetration test of the application by manully invoking the intents with appropriate actions. Manual testing can be performed using the *Manual* scan feature of the application.
+
+Users can scan an application by specifying the name of the application as it appears on the device or by specifying the package name of the application. C-Ray cannot be used to scan an entire Android system and is intended to help pen testers, developers, architects and curious device owners assess the security posture of Android applications.
+
+==*_Color coding used by C-Ray:_*==
+
+*RED*           = Insecure Interface - world access.
+
+*GREEN*      = Secure Interface - cannot be accessed by other applications
+
+*YELLOW*   = Secured using permission, but could be exploited or invoked
+
+*WHITE*      = Secured using permission
+
+= Installation =
+  # Download the apk ([http://code.google.com/p/c-ray/downloads/detail?name=c-ray.apk&can=2&q=]) from the download section.
+  # Manually install the apk using adb.
+  # Download apk using mobile browser and click on c-ray.apk in status bar to install the application.
