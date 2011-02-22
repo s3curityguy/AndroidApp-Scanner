@@ -21,7 +21,7 @@ Users can scan an application by specifying the name of the application as it ap
 
 *YELLOW*   = Secured using permission, but could be exploited or invoked
 
-*WHITE*      = Secured using permission
+*WHITE*      = Secured using permission tag, but security level of permission unknown
 
 = Installation =
   # Download the apk ([http://code.google.com/p/c-ray/downloads/detail?name=c-ray.apk&can=2&q=]) from the download section.
