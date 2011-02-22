@@ -24,6 +24,6 @@ Users can scan an application by specifying the name of the application as it ap
 *WHITE*      = Secured using permission tag, but security level of permission unknown
 
 = Installation =
-  # Download the apk ([http://code.google.com/p/c-ray/downloads/detail?name=c-ray.apk&can=2&q=]) from the download section.
-  # Manually install the apk using adb.
-  # Download apk using mobile browser and click on c-ray.apk in status bar to install the application.
+  # Download the apk ([http://code.google.com/p/c-ray/downloads/detail?name=c-ray.apk&can=2&q=]) from the download section and install using any of the methods below:
+    # Manually install the apk using adb.
+    # Download apk using mobile browser and click on c-ray.apk in status bar to install the application.
