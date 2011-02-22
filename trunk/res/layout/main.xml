@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cig_logo">
+    
+    <TextView  
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/packageName"
+    	android:textColor="@color/black"
+    />
+     <EditText 
+        android:id="@+id/txtPackageName"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"        
+      />
+      
+     <RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:id="@+id/RadioGroup" android:animationCache="false" android:checkedButton="@+id/radioAppName">
+			
+		 <RadioButton android:checked="false"
+	 			android:id="@+id/radioAppName" android:text="Application Name" android:textColor="@color/black"/>
+			
+	 	<RadioButton android:checked="false"
+	 			android:id="@+id/radioPkgName" android:text="Package Name"
+	 			android:textColor="@color/black"/>
+ 	</RadioGroup>
+      
+      <Button android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonStart"/>
+            
+	<Button android:id="@+id/Manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ManualScan"/>
+
+
+</LinearLayout>
