@@ -2,7 +2,7 @@
 C-Ray is an open source Android application scanner.
 
 Contributors:
-1) Sarath G
+1) Sarath Geethakumar
 2) Swapnil Deshmukh
 
 Purpose:
