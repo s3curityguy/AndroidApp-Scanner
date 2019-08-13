@@ -1,5 +1,5 @@
-# c-ray
-C-Ray is an open source Android application scanner.
+# AndroidApp-Scanner
+AndroidApp-Scanner is an open source Android application scanner.
 
 Contributors:
 1) Sarath Geethakumar
