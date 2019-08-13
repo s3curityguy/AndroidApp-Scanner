@@ -3,7 +3,7 @@ C-Ray is an open source Android application scanner.
 
 Contributors:
 1) Sarath G
-2) Jesse Rieb
+2) Swapnil Deshmukh
 
 Purpose:
 This app can be installed on an Android device and used to scan other Android apps for security testing purpose. The app provides the following functionalities:
